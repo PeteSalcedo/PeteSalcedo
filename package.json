@@ -1,0 +1,22 @@
+{
+  "name": "react-portfolio-so-people-can-see-im-an-awsome-dev",
+  "version": "1.0.0",
+  "description": "react portfolio site so people can see im an awsome web dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeteSalcedo/React-Landing-Page.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Pete Salcedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeteSalcedo/React-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/PeteSalcedo/React-Landing-Page#readme"
+}
