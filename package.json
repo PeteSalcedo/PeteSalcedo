@@ -30,5 +30,11 @@
   "bugs": {
     "url": "https://github.com/PeteSalcedo/React-Landing-Page/issues"
   },
-  "homepage": "https://github.com/PeteSalcedo/React-Landing-Page#readme"
+  "homepage": "https://github.com/PeteSalcedo/React-Landing-Page#readme",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
