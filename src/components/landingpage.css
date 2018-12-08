@@ -1,0 +1,12 @@
+.dev-image {
+    height: 250px;
+    padding-top: 5em;
+  }
+  
+  .banner-tex {
+    background-color: black;
+    opacity: .8;
+    width:75%;
+    margin:auto;
+    border-radius: 10px;
+  }
