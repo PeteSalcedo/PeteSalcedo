@@ -22,11 +22,18 @@ class Project extends Component {
                 </Card>
 			);
 		}else if(this.state.activeTab ===1){
-            return(
-            <div>
-                <h1>Here Go my Hola Code prjects</h1>
-            </div>
-            );
+            return (
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color:'#fff', height:'176px',background:"url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAA6lBMVEX///8AzGZfXPX/1AAY4v4AymAAAAD///35+fn/0gBcWfUA4P6IhocsKipiYWHT09NOSvS5ubmmpaXe1NJZVvVF6f+F4qf/2j7s5v/Nzc3g3+BST0//5YMAyFdpaWnv7u7//fR4eoN4d3iWlZXc3P3o5/o9OzxST/Q6Mzbg//8t0HXExMQ21H96d/dycPba+v/u+/Rt6v7/4myO4q5y3J3Q89w5NjL/++fT1P//75jFxfuKiPf/9c2m8f7/547F9v5pZfah6cSP7v+8u/qVlPj/8KtCPvXg+OkYFRb/+dskHh+iofn28/8dGBGICMvQAAADF0lEQVRYhe2Y8VPaMBSA45RQWVugYwwabV2Q4uxAN0WdTAXdBJ37//+dtc17bVlLqV28nXf9fnrXC9+lyUveo4SUlJSUvFrOd66BqnT1NrC5Fz2stk+B+T+pN4G4+rAi2B3LV28ISvUrU2/LV+/tIEtqGcmXSnV2AhxnjLq8A57GM2BM1DRccoOQI4yUDPV0ILjvtHeBNqHNJLz36S2wRbYwPMpQj2pvAhqddkVsTaVNtJSBhqfeAggGhdT1LmnaMMbtmTLVquUtixjCHzntylQfcFDb1CY9JlPN3FBdJ6r+MguiUkbNIuqWwFPvwgkL1KZJuriNpr+hkTpIvhzqXz8Ek/4Mi9JsVfK9R0gYZakjjkOURT2JqtbfIVGUrxbHTqOeguNYgE4xsqi93uuro21Mw+hhpLDwoRNTd6bDgNGkuNp2UtX7jVpAa1hIrXdR7fKkWqRxrZhac1Gte6n+MmqT9lTJav/w+Gr/hMpVs4Ul1I9G3WnmV0cHfaVa8QuWr4bClanuI/EqpyTx1RDaDKNl9b0ohY0RPJgM4Hq6jJkXWsgBcKZpZ8hvfHgQP41PF8A+qlviNQZxtRbOlZn+DImYdfiG1TlSvbkCbs6/AT/hYpnU0tRhyMzgQbDWfXzjWnUD75v5Ldb22+/Y5H9Yo7YZ5YpQu5Rq/qz7A9inadSYeWq4uT01NIfr1IzbjAdqxas2FpenVvwNErP2y67BZM5atXVVLIhjuY+GRLW31hastc2ZQQqohw3BfSJDlChDCCmiTiORfEl1JVJHyQdNfqY6LH5c0znAjH4DGotp1LrPr74AVw9fgZ0s9cIFuszAiPdW/yA/KxYkNmIiKuxw2jk5/BxwOMutNusmqm3b/ls9aokS67dzwElutUWpDupFEC2rk51ifrW3tNQVaq+iSFc3hVpjPblqR1/YsCC8KVXtGsFfGRb8izGkqoEVyVdcTbuA1xFgtHRkpnjzdE6j/jYXPETlHxE3NmAfuFDmY+D5X6HOr7GaPvun60gUU5nqHLdwqS7V2cW0GA/4wUz+R+aSkpKS/8AfyuK8WW+EU3cAAAAASUVORK5CYII=)"}}> Hola Code </CardTitle>
+                <CardText>These are some awsome apps that along with my fellow Hola Code alumni</CardText>
+                <CardActions border>
+                <Button colored>Github</Button>
+                </CardActions>
+                <CardMenu style={{color:'#fff'}}>
+                <IconButton name="share" />
+                </CardMenu>
+                </Card>
+			);
         }else if(this.state.activeTab ===2){
             return(
             <div>
