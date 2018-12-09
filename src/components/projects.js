@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardAction, Button, CardMenu,IconButton } from 'react-mdl';
 
 class Project extends Component {
 	constructor(props) { 
@@ -10,9 +10,10 @@ class Project extends Component {
 	toggleCategories() {
 		if (this.state.activeTab === 0) {
 			return (
-				<div>
-					<h1>This is react</h1>
-				</div>
+                <card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color:'#fff', height:'176px',background:"../images/reactcardimage.png"}}> React Notes App </CardTitle>
+                <CardText>This app uses some good react styling to make an awsome notes </CardText>
+                </card>
 			);
 		}else if(this.state.activeTab ===1){
             return(
