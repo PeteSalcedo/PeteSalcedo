@@ -14,7 +14,7 @@ class Contact extends Component {
                   alt="avatar"
                   style={{height: '250px'}}
                    />
-                 <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>A web developer that likes to have fun developing an contributing to the open source development movement.</p>
+                 <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>A web devekoper that likes to learn to depth the basics of react and why things exsist challenging all knowledge</p>
               </Cell>
               <Cell col={6}>
                 <h2>Contact Me</h2>
@@ -24,15 +24,25 @@ class Contact extends Component {
                     <ListItem>
                       <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                         <i className="fa fa-phone-square" aria-hidden="true"/>
-                        () 847-9862
+                        (123) 456-7890
                       </ListItemContent>
                     </ListItem>
                     <ListItem>
+                      <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                        <i className="fa fa-fax" aria-hidden="true"/>
+                        (123) 456-7890
+                      </ListItemContent>
                     </ListItem>
                     <ListItem>
                       <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                         <i className="fa fa-envelope" aria-hidden="true"/>
-                        Pedroluisdiaz405@example.com
+                        someone@example.com
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                        <i className="fa fa-skype" aria-hidden="true"/>
+                        MySkypeID
                       </ListItemContent>
                     </ListItem>
                   </List>
@@ -43,5 +53,4 @@ class Contact extends Component {
         )
       }
     }
-
     export default Contact;
